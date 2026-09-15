@@ -9,7 +9,7 @@ def home():
     return jsonify(
         {
             "application": "CloudOps API",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "environment": os.getenv("ENVIRONMENT", "local"),
             "message": "CloudOps API is running"
         }
